@@ -40,6 +40,6 @@ class GithubCloneService
   end
 
   def self.yaml_folder(openfisca_folder)
-    "#{git_clone_folder}/openfisca_aotearoa/#{openfisca_folder}/" unless openfisca_folder.nil?
+    "#{git_clone_folder}/openfisca_#{ENV['COUNTRY_NAME']}/#{openfisca_folder}/" unless openfisca_folder.nil?
   end
 end
