@@ -104,7 +104,7 @@ brew install postgresql
 ```
 * Start PostgreSQL on startup *(in a Mac)*
 ```
-brew services start postgresql
+pg_ctl -D /usr/local/var/postgres start
 ```
 * Install PostgreSQL *(in Ubuntu)*
 ```
