@@ -104,7 +104,7 @@ brew install postgresql
 ```
 * Start PostgreSQL on startup *(in a Mac)*
 ```
-brew services start postgresql
+pg_ctl -D /usr/local/var/postgres start
 ```
 * Install PostgreSQL *(in Ubuntu)*
 ```
@@ -118,6 +118,17 @@ update-rc.d postgresql enable
 ```
 service postgresql start
 ```
+* Create role in DB *(In a Mac)*
+```
+psql -dpostgres
+postgres=# CREATE USER postgres SUPERUSER;
+```
+* Install xcode command line tools *(In a Mac)
+```
+sudo xcode-select --switch /Library/Developer/CommandLineTools        
+```
+
+
 * Bundler. Install this from gem
 ```
 gem install bundler
