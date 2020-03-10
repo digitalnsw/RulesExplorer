@@ -62,6 +62,17 @@ Choose one of these tools, to change the ruby version
 1. [rbenv](https://github.com/rbenv/rbenv)
 2. [rvm](https://rvm.io/)
 
+```
+brew install rbenv
+```
+
+Then edit your .zshrc and add:
+
+```
+eval "$(rbenv init -)"
+```
+to the bottom of it.
+
 
 * You will need to setup the app's environment variables
 ```
