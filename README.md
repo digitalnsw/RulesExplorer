@@ -1,3 +1,6 @@
+The repo has been archived. Please use the repo on the Openfisca-NSW github group:
+https://github.com/Openfisca-NSW/RulesExplorer
+
 # Rapu Ture
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/580a9cc169de1c21c180/maintainability)](https://codeclimate.com/github/ServiceInnovationLab/RapuTure/maintainability)
